@@ -1,0 +1,16 @@
+h1{
+    color: #780000;
+    margin: auto 50px;
+}
+p{
+    color: white;
+    background-color: #003049;
+    padding: 15px;
+    border: 10px solid purple;
+    /* margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px; */
+    margin: 40px 20px;
+    text-align: center;
+}
