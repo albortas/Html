@@ -1,0 +1,18 @@
+ol{
+    list-style: none;
+    counter-reset: contador;
+
+}
+ol li{
+    counter-increment: contador;
+}
+
+/* Colocar un texto antes de visualizar la lista de items */
+ol li::before{
+    content: 'Curso ' counter(contador) ') ';
+    color: #ff6f00;
+}
+
+ol li::after{
+    content: '.';
+}
